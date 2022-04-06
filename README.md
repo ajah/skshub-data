@@ -1,4 +1,4 @@
-# "Something" Nonprofit Sector Data - Entities and Activities
+# Sector Knowledge Sharing (SKS) Project Data
 
 - **Entities:** This CSV contains information about individual organizations in the nonprofit sector. The data includes all organizations that are registered with the CRA as a Public Foundation, Private Foundation or Charitable Organization.
 - **Activities:** This CSV contains grant data from the federal Grants & Contributions database. This data allows us to understand more about the activities and programs carried out by organizations in the nonprofit sector
@@ -13,7 +13,11 @@ The data we are currently using comes from the federal government, and thus only
 
 ## Download
 
-To download, navigate to the "data" folder above and select the CSV. From there, click "Raw" and save the resulting output as a CSV.
+- To download, navigate to the "data" folder above and select a CSV.
+- From there, click "Raw" (the page will load the raw CSV output)
+- In your browser, save the page with the extension ".csv"
+  - For example to download the entities data in Chrome, select 'File' > 'Save Page As' and type "entities.csv" as the filename before saving
+- Your download should complete in less than one minute
 
 ## Data Sources
 
@@ -83,7 +87,7 @@ To download, navigate to the "data" folder above and select the CSV. From there,
 
 **Source Authority:** This defines where the record was sourced from, all Canadian data is sourced from the Proactive Disclosure Grants and Contributions - [Field: Automatically assigned value]
 
-**Source URL:** URL of where the data was obtained, it is the same for every organization and changes XXX - [Field: Automatically assigned value]
+**Source URL:** URL of where the data was obtained, which is the same for every organization - [Field: Automatically assigned value]
 
 **Grant Title:** The title of the project or agreement that the recipient is undertaking (In cases where there is no title, the agreement number will be duplicated here) - [Field: Agreement Title]
 
@@ -118,3 +122,5 @@ To download, navigate to the "data" folder above and select the CSV. From there,
 **Actual Results:** The actual results obtained as a result of receiving the grant funds - [Field: NO idea where this info is coming?]
 
 **Program Name:** The name of the program under which the funds are issued - Field [Program Name (English)]
+
+**Ent SKS ID:** If the activity is associated with an entity, this is the unique ID of the corresponding entity for use in the Sector Knowledge Sharing (SKS) project only
