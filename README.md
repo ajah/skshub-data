@@ -1,8 +1,5 @@
 # Sector Knowledge Sharing (SKS) Project Data
 
-- **Entities:** This CSV contains information about individual organizations in the nonprofit sector. The data includes all organizations that are registered with the CRA as a Public Foundation, Private Foundation or Charitable Organization.
-- **Activities:** This CSV contains grant data from the federal Grants & Contributions database. This data allows us to understand more about the activities and programs carried out by organizations in the nonprofit sector
-
 ## Overview
 
 **Challenge:** The nonprofit and philanthropic sector has limited information about who is trying or has tried what approaches and with what outcomes. Despite the hard work that goes into developing and carrying out innovative projects, insights are rarely shared with other organizations, which limits our ability to learn and impedes the sector from using its prized human and financial resources more efficiently. We want to help organizations learn from their previous initiatives, share information and develop shared learning practices that collectively move the sector forward.
