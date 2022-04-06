@@ -5,11 +5,16 @@
 
 ## Overview
 
-Ajah is exploring building common, open source infrastructure for the information already available about the sector, focusing on existing open data sources about nonprofit organizations, grants, and evaluations. Through this work, Ajah is looking to make this information more accessible to the whole sector.
+**Challenge:** The nonprofit and philanthropic sector has limited information about who is trying or has tried what approaches and with what outcomes. Despite the hard work that goes into developing and carrying out innovative projects, insights are rarely shared with other organizations, which limits our ability to learn and impedes the sector from using its prized human and financial resources more efficiently. We want to help organizations learn from their previous initiatives, share information and develop shared learning practices that collectively move the sector forward.
 
-These CSVs will become the building blocks of a data infratsructure prototype for the nonprofit sector. We hope the prototype will show the benefits of open, sharable and organized data, as well as allow different stakeholders to better understand the organizations that make up our sector and the activities and programs they run.
+**This project:** Ajah wants to explore what shared infrastructure could look like for the nonprofit sector. We are looking to build a common, open-source infrastructure for the information already available about the sector, focusing on existing open data sources about nonprofit organizations, grants, and evaluations. Our goal is to make this information more accessible and usable to anyone in the sector.
 
-The data we are currently using comes from the federal government, and thus only allows us to have access to the grants given by the government. The prototype is meant to showcase how data infratsructure can help facilitate research for the sector. We hope that the sucess of the prototype will convince private foundations to share their data in order to gain a better picture of the philanthropic landscape in Canada.
+The CSVs found here will become the building blocks of a data infrastructure prototype for the nonprofit sector. We hope the prototype will show the benefits of open, sharable and organized data and allow different stakeholders to better understand the organizations that make up our sector and the activities and programs they run.
+
+The data we are currently using comes from the federal government, and thus only allows us to have access to the grants given by the government. The prototype is meant to showcase how data infrastructure can help facilitate research for the sector. We hope that the success of the prototype will convince private foundations to share their data to gain a better picture of the philanthropic landscape in Canada.
+
+- **Entities:** This CSV contains information about individual organizations in the nonprofit sector. The data includes all organizations that are registered with the CRA as a Public Foundation, Private Foundation or Charitable Organization.
+- **Activities:** This CSV contains grant data from the federal Grants & Contributions database. This data allows us to understand more about the activities and programs carried out by organizations in the nonprofit sector.
 
 ## Download
 
@@ -99,7 +104,7 @@ The data we are currently using comes from the federal government, and thus only
 
 **Recipient Organization:** The legal name of the recipient organization - [Field: Recipient Legal Name]
 
-**Recipient ID:** A unique and legal identifier for the recipient Organization, for the for the Grants and Contribution data this is the Business Number issued by the Canada Revenue Agency (CRA) - [Field: Recipient Business Number]
+**Recipient ID:** A unique and legal identifier for the recipient Organization, for the Grants and Contribution data this is the Business Number issued by the Canada Revenue Agency (CRA) - [Field: Recipient Business Number]
 
 **Grant Description:** The description explains why the recipient received funding, what the recipient is undertaking and describes the activities or objectives the recipient organization hopes to achieve with the funds - [Field: Description (English)]
 
@@ -119,7 +124,7 @@ The data we are currently using comes from the federal government, and thus only
 
 **Expected Results:** The assumed final results the recipient organization aims to achieve with the given funds - [Field: Expected Results (English)]
 
-**Actual Results:** The actual results obtained as a result of receiving the grant funds - [Field: NO idea where this info is coming?]
+**Actual Results:** This data is currently not available.
 
 **Program Name:** The name of the program under which the funds are issued - Field [Program Name (English)]
 
