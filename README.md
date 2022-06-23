@@ -4,7 +4,7 @@
 
 For a more detailed overview of this project, please go to our [SKS Hub Roadmap](https://github.com/orgs/ajah/projects/4). The Roadmap has a more detailed readme, in addition to showing the upcoming updates, features and the known bugs/issues of the SKS Hub.
 
-You can also find our SKS Hub intercafe code in this [repository](https://github.com/ajah/sks-interface) and the back-end code in this [repository](https://github.com/ajah/sks-server)
+You can also find our SKS Hub interface code in this [repository](https://github.com/ajah/sks-interface) and the back-end code in this [repository](https://github.com/ajah/sks-server)
 
 **This project:** Ajah wants to explore what shared infrastructure could look like for the nonprofit sector. We are looking to build a common, open-source infrastructure for the information already available about the sector, focusing on existing open data sources about nonprofit organizations, grants, and evaluations. Our goal is to make this information more accessible and usable to anyone in the sector.
 
