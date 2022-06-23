@@ -2,7 +2,9 @@
 
 ## Overview
 
-**Challenge:** The nonprofit and philanthropic sector has limited information about who is trying or has tried what approaches and with what outcomes. Despite the hard work that goes into developing and carrying out innovative projects, insights are rarely shared with other organizations, which limits our ability to learn and impedes the sector from using its prized human and financial resources more efficiently. We want to help organizations learn from their previous initiatives, share information and develop shared learning practices that collectively move the sector forward.
+For a more detailed overview of this project, please go to our [SKS Hub Roadmap](https://github.com/orgs/ajah/projects/4). The Roadmap has a more detailed readme, in addition to showing the upcoming updates, features and the known bugs/issues of the SKS Hub.
+
+You can also find our SKS Hub intercafe code in this [repository](https://github.com/ajah/sks-interface) and the back-end code in this [repository](https://github.com/ajah/sks-server)
 
 **This project:** Ajah wants to explore what shared infrastructure could look like for the nonprofit sector. We are looking to build a common, open-source infrastructure for the information already available about the sector, focusing on existing open data sources about nonprofit organizations, grants, and evaluations. Our goal is to make this information more accessible and usable to anyone in the sector.
 
@@ -12,6 +14,7 @@ The data we are currently using comes from the federal government, and thus only
 
 - **Entities:** This CSV contains information about individual organizations in the nonprofit sector. The data includes all organizations that are registered with the CRA as a Public Foundation, Private Foundation or Charitable Organization.
 - **Activities:** This CSV contains grant data from the federal Grants & Contributions database. This data allows us to understand more about the activities and programs carried out by organizations in the nonprofit sector.
+- **Linkages:** This CSV contains the corpus text of those organizations that had a listed website URL. The text was scrapped directly from the organization's website. As we further develop the database, we hope to include other links connected to the organizations such as social media handles and links. 
 
 ## Download
 
@@ -126,3 +129,15 @@ The data we are currently using comes from the federal government, and thus only
 **Program Name:** The name of the program under which the funds are issued - Field [Program Name (English)]
 
 **Ent SKS ID:** If the activity is associated with an entity, this is the unique ID of the corresponding entity for use in the Sector Knowledge Sharing (SKS) project only
+
+### Linkages
+
+**External ID:** Business Number issued by the Canada Revenue Agency (CRA) - [Dataset: 3.1 Identification & Field: BN]
+
+**Name:** Legal name of the organization - [Dataset: 3.1 Identification & Field: Legal Name]
+
+**Website:** URL of the organization’s website - [Dataset: 3.2 Charity Contact Web Addresses & Field: Contact URL]
+
+**Website Text:** Text scrapped from the organization’s website - [Done using a scrapper]
+
+**Ent SKS ID:** This is the unique ID of the corresponding entity for use in the Sector Knowledge Sharing (SKS) project only
